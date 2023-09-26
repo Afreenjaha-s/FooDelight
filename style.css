@@ -1,0 +1,131 @@
+.title{
+    box-sizing: border-box;
+    height: 60px;
+    padding: 7px;
+    background-color: rgb(61, 2, 39);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.btn{
+   height: 40px;
+   
+}
+.nav2{
+position: sticky;
+top: 60px;
+justify-content: center;
+background-color: rgba(87, 4, 56, 0.788) ;
+z-index: 1;
+
+}
+.items{
+    padding: 3px;
+}
+
+.image{
+    box-sizing: border-box;
+    border: 1px solid rgb(31, 30, 32);
+    object-fit: cover;
+    border-radius: 5px;
+    width:100%;
+    height: 530px;
+    z-index: -1;
+}
+.itemcolor{
+    color: white;
+    font-size: 18px;
+    font-weight: 60px;
+}
+.itemcolor:hover{
+    border-radius: 15px;
+background: #820d5d;
+height: 40px;
+box-shadow:  5px 5px 17px #5e0943,
+             -5px -5px 17px #dadada8c;
+ padding: 5px;
+ color: white;
+
+}
+.text{
+    position: absolute;
+    top: 170px;
+    margin-left: 550px;
+    
+}
+.icon{
+margin-top: -9px;
+}
+.para{
+    justify-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: bisque;
+   font-size: 30px;
+   text-align: center;
+}
+.logo{ 
+    margin-left: 80px;
+}
+.veg{
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.664);
+    border-radius: 8px;
+    height: 700px;
+    width: 100%;
+    background-image: url(veggie1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.bt2{
+    display: flex;
+    justify-content: space-between;
+   margin-top: -10px;
+}
+.btngre{
+    background-color: rgba(11, 153, 106, 0.575);
+
+}
+.btn-primary{
+    background-color: rgba(5, 141, 219, 0.644);
+}
+.pics{
+    border: 1px solid rgb(37, 37, 37);
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    height: 120px;
+    object-fit: cover;
+}
+.card{
+    height: 260px;
+    background-color: rgba(34, 32, 33, 0.788) ;
+    border-radius: 10px;
+}
+.card:hover{
+    border-radius: 10px;
+    background: #141414;
+    box-shadow:  10px 10px 20px #353033,
+                 10px 10px 20px #5c5a5a;
+}
+.card-title{
+    color: white;
+    
+}
+.card-text{
+    color: rgb(255, 196, 196);
+}
+.veg1{
+    background-image: url(nonimg.jpg);
+}
+.veg2{
+    background-image: url(nonveggie.jpg);
+    overflow-y: scroll;
+}
+.veg3{
+    background-image: url(startersbgg.jpg);
+}
+.veg4{
+    background-image: url(icecreambggg.jpg);
+}
